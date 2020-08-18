@@ -35,7 +35,9 @@ Structure of the MDL model.jpg --- This file introduces the structures of the MD
 
 Code_of_the_MDL_model.py --- This file provides the code of the MDL model.
 
-# Description of the Code
+# Python script explanation
+The MDL employ the datasets whch are preprocessed based on the file DATASET.txt, and the speed data and volume are separated to form two input datasets
+
 create_dataset_input(data,look_back,look_ahead)----create the dataset for input
 
 create_dataset_output(data,look_back,look_ahead)---create the dataset for output
