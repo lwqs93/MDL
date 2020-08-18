@@ -39,3 +39,5 @@ Code_of_the_MDL_model.py --- This file provides the code of the MDL model.
 create_dataset_input(data,look_back,look_ahead)----create the dataset for input
 
 create_dataset_output(data,look_back,look_ahead)---create the dataset for output
+
+More description are shown in Code_of_the_MDL_model.py.
