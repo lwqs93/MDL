@@ -28,5 +28,7 @@ L3_SPEED: The traffic speed of the Lane 3.
 
 L4_SPEED: The traffic speed of the Lane 4.
 
-Location of the observation lanes.jpg --- The file introduce the location of the observation lanes.
+Location of the observation lanes.jpg --- This file introduces the location of the observation lanes.
+
+Structure of the MDL model.jpg --- This file introduces the structures of the MDL model which combines the Conv-LSTM layers, a CNN layer, and a fully connected layer.
 
