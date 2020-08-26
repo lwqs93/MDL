@@ -1,6 +1,6 @@
 # Lane-Level_Traffic_speed_prediction
 
-This is the code and dataset for the manuscript "Lane-Level Traffic Speed Forecasting: A Novel Mixed Deep Learning Model" which is under review by the Journal of IEEE transaction on Transactions on Intelligent Transportation Systems.
+This is the code and dataset for the manuscript "Lane-Level Traffic Speed Forecasting: A Novel Mixed Deep Learning Model" which is under review by the Journal of IEEE transaction on Transactions on Intelligent Transportation Systems. 
 
 # File description
 DATASET.txt ---The original dataset which was captured by the remote traffic microwave sensors located on the expressways in Beijing. There are eleven properties in this file. The descriptions of the properties are list as follows.
@@ -33,7 +33,9 @@ Location of the observation lanes.jpg --- This file introduces the location of t
 
 Structure of the MDL model.jpg --- This file introduces the structures of the MDL model which combines the Conv-LSTM layers, a CNN layer, and a fully connected layer.
 
-Code_of_the_MDL_model.py --- This file provides the code of the MDL model.
+MDL_model.py --- This file provides the code of the MDL model.
+
+create_data.py ---This file preprocesses the data which are used as the input of the MDL model.
 
 The pseudo-code of training an MDL model. ---This file provides the pseudo code of the MDL model. 
 
@@ -60,4 +62,4 @@ create_dataset_input(data,look_back,look_ahead)----create the dataset for input
 
 create_dataset_output(data,look_back,look_ahead)---create the dataset for output
 
-More description are shown in Code_of_the_MDL_model.py.
+More description are shown in MDL_model.py.
