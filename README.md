@@ -35,6 +35,16 @@ Structure of the MDL model.jpg --- This file introduces the structures of the MD
 
 Code_of_the_MDL_model.py --- This file provides the code of the MDL model.
 
+# Requirements
+
+TensorFlow==1.13.2
+
+Keras==2.1.1
+
+Pandas==0.25.1
+
+Numpy==1.17.2
+
 # Python script explanation
 The MDL employ the datasets whch are preprocessed based on the file DATASET.txt, and the speed data and volume data are separated to form two input datasets.
 
