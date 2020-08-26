@@ -54,13 +54,14 @@ Matplotlib==3.1.1
 
 # Preprocessing
 
-The MDL employs the datasets which are preprocessed based on the file DATASET.txt, and the speed data and volume data are separated to form two input datasets. The missing and erroneous records were properly remedied by using the historical averaged based data imputation approach. Then, we speed data and volume data were saved as "s.csv" and "v.csv" respectively, which can be fed in the MDL_model.py.
+The MDL employs the datasets which are preprocessed based on the file DATASET.txt, and the speed data and volume data are separated to form two input datasets. The missing and erroneous records were properly remedied by using the historical averaged based data imputation approach. Then, the speed data and volume data were saved as "s.csv" and "v.csv" respectively, which can be fed in the MDL_model.py.
 
 # Python script explanation
-create_data.py:
+
+create_data.py---
 
 create_dataset_input(data,look_back,look_ahead)----create the dataset for input
 
 create_dataset_output(data,look_back,look_ahead)---create the dataset for output
 
-More description are shown in MDL_model.py.
+More detailed description are shown in MDL_model.py.
