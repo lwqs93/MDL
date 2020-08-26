@@ -9,7 +9,7 @@ ROAD SECTION, DATE, TIME, L1_VOLUME, L2_VOLUME, L3_VOLUME, L4_VOLUME, L1_SPEED, 
 
 ROAD SECTION: The ID of the Road section.
 
-DATE: The data of collecting the Traffic flow data.
+DATE: The date of collecting the Traffic flow data.
 
 TIME: The exact time of data acquisition.
 
