@@ -13,21 +13,21 @@ DATE: The date of collecting the Traffic flow data.
 
 TIME: The exact time of data acquisition.
 
-L1_VOLUME: The traffic volume of the Lane 1 (The inside lane).
+L1_VOLUME: The traffic volume of the lane L1 (The inside lane).
 
-L2_VOLUME: The traffic volume of the Lane 2.
+L2_VOLUME: The traffic volume of the lane L2.
 
-L3_VOLUME: The traffic volume of the Lane 3.
+L3_VOLUME: The traffic volume of the lane L3.
 
-L4_VOLUME: The traffic volume of the Lane 4.
+L4_VOLUME: The traffic volume of the lane L4.
 
-L1_SPEED: The traffic speed of the Lane 1.
+L1_SPEED: The traffic speed of the lane L1.
 
-L2_SPEED: The traffic speed of the Lane 2.
+L2_SPEED: The traffic speed of the lane L2.
 
-L3_SPEED: The traffic speed of the Lane 3.
+L3_SPEED: The traffic speed of the lane L3.
 
-L4_SPEED: The traffic speed of the Lane 4.
+L4_SPEED: The traffic speed of the lane L4.
 
 Location of the observation lanes.jpg --- This file introduces the location of the observation lanes.
 
@@ -57,6 +57,7 @@ Matplotlib==3.1.1
 The MDL employs the datasets which are preprocessed based on the file DATASET.txt, and the speed data and volume data are separated to form two input datasets. The missing and erroneous records were properly remedied by using the historical averaged based data imputation approach. Then, we speed data and volume data were saved as "s.csv" and "v.csv" respectively, which can be fed in the MDL_model.py.
 
 # Python script explanation
+create_data.py:
 
 create_dataset_input(data,look_back,look_ahead)----create the dataset for input
 
