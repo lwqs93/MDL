@@ -35,6 +35,8 @@ Structure of the MDL model.jpg --- This file introduces the structures of the MD
 
 Code_of_the_MDL_model.py --- This file provides the code of the MDL model.
 
+The pseudo-code of training an MDL model. ---This file provides the pseudo code of the MDL model. 
+
 # Requirements
 
 TensorFlow==1.13.2
@@ -45,8 +47,14 @@ Pandas==0.25.1
 
 Numpy==1.17.2
 
+Matplotlib==3.1.1
+
+
+# Preprocessing
+
+The MDL employ the datasets whch are preprocessed based on the file DATASET.txt, and the speed data and volume data are separated to form two input datasets. The the missing and erroneous records were properly remedied by using the historical averaged based data imputation approach. Then, we speed data and volume data were saved as "s.csv" and "v.csv" respectively, which can be fed in the Code_of_the_MDL_model.py.
+
 # Python script explanation
-The MDL employ the datasets whch are preprocessed based on the file DATASET.txt, and the speed data and volume data are separated to form two input datasets.
 
 create_dataset_input(data,look_back,look_ahead)----create the dataset for input
 
