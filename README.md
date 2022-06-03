@@ -1,6 +1,6 @@
 # Lane-Level Traffic speed prediction
 
-This is the code and dataset for the manuscript "Lane-Level Traffic Speed Forecasting: A Novel Mixed Deep Learning Model" 
+This is the code for the manuscript "Lane-Level Traffic Speed Forecasting: A Novel Mixed Deep Learning Model" 
 
 # File description
 MDL_model.py --- This file provides the code of the MDL model.
